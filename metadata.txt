@@ -1,0 +1,24 @@
+[general]
+name=Ocultar Puntos por Área
+qgisMinimumVersion=3.0
+description=Herramienta que permite seleccionar un área de puntos mediante el ratón y ocultarlos acumulativamente usando un filtro de capa (subset string), sin borrar las entidades físicamente.
+version=1.0
+author=Bautista
+email=bautista@example.com
+
+about=Complemento para QGIS que agrega una barra de herramientas "Ocultar Puntos" con dos acciones: (1) seleccionar puntos mediante un rectángulo de arrastre y ocultarlos acumulativamente aplicando un filtro $id NOT IN (...) a la capa activa, y (2) restaurar la visibilidad completa de la capa eliminando el filtro. Ideal para depurar visualmente capas de puntos densas (por ejemplo, electrodos, estaciones o sondeos) sin modificar los datos originales.
+
+tracker=https://github.com/example/ocultar-puntos-por-area/issues
+repository=https://github.com/example/ocultar-puntos-por-area
+homepage=https://github.com/example/ocultar-puntos-por-area
+
+category=Vector
+icon=icons/icon_seleccionar.png
+
+experimental=False
+deprecated=False
+server=False
+
+tags=puntos,ocultar,filtro,subset,vector,seleccion,rectangulo
+
+hasProcessingProvider=no
